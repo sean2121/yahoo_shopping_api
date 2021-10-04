@@ -4,7 +4,7 @@ module YahooShoppingApi
   module Client
     class Helper
       attr_accessor :access_token, :seller_id, :endpoint
-      ENDPOINT = "https://circus.shopping.yahooapis.jp/ShoppingWebService/V1/"
+      ENDPOINT = "https://circus.shopping.yahooapis.jp/ShoppingWebService/V2/"
       TEST_ENDPOINT = "https://test.circus.shopping.yahooapis.jp/ShoppingWebService/V1/"
 
       def initialize(args)
